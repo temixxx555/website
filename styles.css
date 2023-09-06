@@ -1,0 +1,232 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+body{
+   font-size: 16px;
+   scroll-behavior: smooth;
+}
+header{
+width:100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ ul{
+    display: flex;
+    
+}
+li{
+    margin-left:20px ;
+    padding-right: 20px;
+    list-style: none;
+}
+.logo-img{
+    width: 90px;
+    height: 30px;
+    padding-left: 40px;
+}
+a{
+    text-decoration: none;
+}
+section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top:20px ;
+}
+.img{
+    width:620px;
+    height: 500px;
+}
+ input{
+    height:20px
+ }
+ button{
+   width: 110px;
+   height: 25px;
+    background-color: rgb(26, 26, 126);
+    font-size: 11px;
+    color: white;
+ }
+ .text{
+    padding-left: 20px;
+ }
+ .icon{
+    color: rgba(20,20,20,0.5);
+    border-bottom: 1px solid black;
+    max-width: 170px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+ }
+ .quotes{
+    width:260px;
+    height: 140px;
+    background-color: rgb(255, 243, 243);
+    padding: 20px;
+    font-size: 13px;
+    margin-top: 10px;
+ }
+ .avatar{
+    width: 30px;
+    height: 40px;
+    border-radius: 50%; 
+ }
+ .testimon{
+    display: flex;
+    font-size: 9px;
+ }
+ .words{
+    margin-left: 10px;
+ }
+ .two{
+    background-image: url(bg-curve-desktop.svg);
+ }
+ #email{
+    width:300px;
+    height: 20px;
+    margin-bottom: 10px;
+   
+ }
+ .three{
+    background-color: rgb(139, 139, 231);
+    display: flex;
+    justify-content: space-between;
+ }
+ .tex{
+    padding: 20px;
+ }
+ 
+footer{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   align-items: center;
+   font-size: 15px;
+   color: white;
+   background-color: rgb(71, 71, 133);
+}
+.contact{
+   display: flex;
+   flex-direction: column;
+  color: white;
+   
+}
+.social-icons{
+   display: flex;
+   flex-direction: column;
+   margin-left: 30px;
+   padding: 10px;
+}
+.contact a{
+   color:white;
+   padding-bottom: 10px;
+ font-size: 10px;
+}
+.blog{
+   display: flex;
+   flex-direction: column;
+ margin-top: 55px;
+}
+.blog a{
+   padding-bottom: 8px;
+   font-size: 11px;
+   color: white;
+}
+.terms{
+   display: flex;
+   flex-direction: column;
+ margin-top: 55px;
+}
+.terms a{
+   padding-bottom: 8px;
+   font-size: 11px;
+   color: white;
+}
+.social-icon a{
+   margin-left: 30px;
+   padding-bottom: 8px;
+   color: white;
+}
+.social-icon{
+  margin-right: 50px;
+  
+}
+@media (max-width:1024px) {
+   section{
+     flex-direction: column-reverse;
+   }
+.text input{
+display: block;
+margin: auto;
+width:50%;
+height:30px;
+padding: 8px;
+}
+.text button{
+   display: block;
+margin: auto;
+width:53%;
+height:40px;
+padding: 8px;
+margin-top: 12px;
+}
+
+   .img{
+      width:100%;
+      height: 500px;
+      aspect-ratio: 4/3;
+      object-fit: contain;
+  }
+  body{
+   font-size: 22px;
+  }
+  .three {
+   flex-direction: column;
+padding-bottom: 60px;
+  }
+  #email{
+   width:85%;
+   height:25px;
+  }
+  .email button{
+   width:85%;
+   height:35px;
+  }
+  footer{
+   flex-direction: column;
+   font-size: 25px;
+   align-items: flex-start;
+
+  }
+  .contact a{
+   font-size: 25px;
+   margin-left: 20px;
+  }
+  .contact img{
+   height:60px;
+   width:180px;
+   padding-bottom: 30px;
+  }
+  .terms a{
+   font-size: 25px;
+padding-bottom: 20px;
+margin-left: 20px;
+  }
+  .blog a{
+   font-size: 25px;
+   margin-left: 20px;
+
+  }
+.re{
+   display: flex;
+   align-self: center;
+  }
+  header{
+   font-size: 15px;
+  }
+}
